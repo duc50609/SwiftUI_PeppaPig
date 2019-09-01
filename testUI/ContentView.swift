@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var pigs: [PigData] = []
+    
     var body: some View {
-        Text("Hello World")
+        List(pigs) { pig in
+            Image(pig.imageName)
+            Text(pig.name).multilineTextAlignment(.center)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(pigs: allPigData)
     }
 }

@@ -15,6 +15,7 @@
 		8D8D947A231BDF0700104258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8D9478231BDF0700104258 /* LaunchScreen.storyboard */; };
 		8D8D9485231BDF0700104258 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D9484231BDF0700104258 /* testUITests.swift */; };
 		8D8D9490231BDF0700104258 /* testUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D948F231BDF0700104258 /* testUIUITests.swift */; };
+		8D8D94DE231BFEA200104258 /* PigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D94DD231BFEA200104258 /* PigData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8D8D948B231BDF0700104258 /* testUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8D948F231BDF0700104258 /* testUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIUITests.swift; sourceTree = "<group>"; };
 		8D8D9491231BDF0700104258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8D94DD231BFEA200104258 /* PigData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8D8D9471231BDF0400104258 /* ContentView.swift */,
 				8D8D9473231BDF0700104258 /* Assets.xcassets */,
 				8D8D9478231BDF0700104258 /* LaunchScreen.storyboard */,
+				8D8D94DD231BFEA200104258 /* PigData.swift */,
 				8D8D947B231BDF0700104258 /* Info.plist */,
 				8D8D9475231BDF0700104258 /* Preview Content */,
 			);
@@ -269,6 +272,7 @@
 			files = (
 				8D8D946E231BDF0400104258 /* AppDelegate.swift in Sources */,
 				8D8D9470231BDF0400104258 /* SceneDelegate.swift in Sources */,
+				8D8D94DE231BFEA200104258 /* PigData.swift in Sources */,
 				8D8D9472231BDF0400104258 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
